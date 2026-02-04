@@ -1,0 +1,1773 @@
+Curso de HTML de W3Schools
+
+Alumno: Francisco Javier Cano Lopez
+Matricula: I23050331
+Materia: Desarrollo de aplicaciones web
+
+=== APRENDE HTMML ===
+
+HTML es el lenguaje estandar para la creacion de paginas web
+
+Donde gracias a el puedes crear tu propia pagina web
+
+= APRENDIENDO CON EJEMPLOS =
+
+Con el editor de W3Schools puedes ejecutar, editar y ver el resultado dentro del navegador
+
+EJEMPLO de W3Schools
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+Mi propio ejemplo
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>CURSO HTML</title>
+</head>
+<body>
+
+<h1>HTML EN W3SCHOOLS</h1>
+<p>Aprende HTML para la creacion de.</p>
+<p>paginas web.</p>
+
+</body>
+</html>
+
+=== INTRODUCCION A HTML ===
+
+¿QUE ES HTML?
+
+HTML significa HyperText Markup Language, es el lenguaje estandar
+para la creacion de paginas web, describe lan estructura
+de una pagina web
+
+Consta de una serie de elementos, que le dicen al navegador
+como mostrar el contenido, etiquetando fragmentos del contenido
+comon "este es un encabezado", "esto es un parrafo", etc.
+
+UN DOCUMENTO HTML SENCILLO
+
+Ejemplo
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+Mi ejemplo
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML EN W3SCHOOLS</title>
+</head>
+<body>
+
+<h1>Mi primer encabezado en html</h1>
+<p>Esto apenas esta empezando</p>
+
+</body>
+</html>
+
+Ejemplo explicado
+
+El "<!DOCTYPE html>" es la declaraciop que define que este
+documento es un documento HTNL5
+
+El <html> es el elemento raiz de una pagina HTML 
+
+El <head> es el elemento que contiene metainformacion
+sobre la pagina HTML
+
+El <title> es un elemento que define el cuerpo del documento
+y en un contenedor para todo el contenido visible, como por ejemplo
+encabezados, parrados, imagenes, hipervinculos, tablas, listas, etc.
+
+El <h1> es el elemento que define un encabezado grande.
+
+El <p> es el elemento que define un parrafo.
+
+¿QUE ES UN ELEMENTO HTML?
+
+Un elemento HTML se define mediante una etiqueta de inicio, algun contenido
+y una etiqueta final.
+
+<tagname> El contenido va aquí... </nombre de etiqueta>
+
+El elemento HTML es todo desde la etiqueta inicial hasta la etiqueta final
+
+<h1>Mi primer titulo</h1>
+<p>Mi primer parrafo</p>
+
+NAVEGADORES WEB
+
+El proposito de un navegador web (Chrome, Edge, Firefox) es leer un documento HTML y
+mostrarlos correctamente.
+
+Un navegador no muestra las etiquetas HTML, pero las utiliza para determinar como mostrar
+el documento
+
+ESTRUCTURA DE LA PAGINA HTML
+
+A continuacion se muestra la visualizacion de la estructura de una pagina HTML
+
+<html>
+
+    <cabeza>
+
+        <title>Titulo de la pagina</title>
+
+    </cabeza>
+
+    <cuerpo>
+
+        <h1> Este es un encabezado </h1>
+        
+        <p> Este es un parrafo </p>
+
+        <p> Este es otro parrafp </p>
+
+    </cuerpo>
+
+</html>
+
+HISTORIAL HTML
+
+Desde los primeros dias de la World Wide Web, ha hanido muchas versiones de HTML.
+
+1989 	Tim Berners-Lee invented www
+1991 	Tim Berners-Lee invented HTML
+1993	Dave Raggett drafted HTML+
+1995	HTML Working Group defined HTML 2.0
+1997	W3C Recommendation: HTML 3.2
+1999	W3C Recommendation: HTML 4.01
+2000	W3C Recommendation: XHTML 1.0
+2008	WHATWG HTML5 First Public Draft
+2012	WHATWG HTML5 Living Standard
+2014	W3C Recommendation: HTML5
+2016	W3C Candidate Recommendation: HTML 5.1
+2017	W3C Recommendation: HTML5.1 2nd Edition
+2017	W3C Recommendation: HTML5.2
+
+=== EDITORES DE HTML ===
+
+Aprenda HTML usando Notepad o TextEdit
+
+Las paginas web se pueden crear y modificar utilizando editores HTML profesionales
+
+Sin embargo para aprender HTML recordemos un editor de texto simple como Notepad (PC)
+o TextEdit (Mac)
+
+Sigue los pasos a continuacion para crear su primera pagina web con Notepad o TextEdit
+
+PASO 1: ABRA EL BLOC DE NOTAS (PC)
+
+Windows 8 o posterior:
+
+Abrir la pantalla inicial
+Selecciona Bloc de notas
+
+Windows 7 o anterior
+
+Selecciona Comenzar > Programas > Accesorios > Bloc de notas
+
+PASO 1: ABRA TEXTEDIT (MAC)
+
+Abre, Buscador > Aplicaciones > TextEdit
+
+Cambie algunas preferencias para que la aplicacion guarde archivos correctamente.
+En Preferencias > Formato > elegir ...Texto sin Formato
+
+Luego en "Abrir y guardar", marque la casilla que dice
+"Mostrar archivos HTML como código HTML en lugar de texto formateado".
+
+Luego abra un nuevo documento para colocar el codigo
+
+PASO 2: ESCRIBE ALGO DE HTML 
+
+Escribe o copie el siguiente codigo HTML en el Bloc de notas
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+PASO 3: GUARDAR LA PAGINA HTML
+
+Guarde el archivo en su computadora. 
+Seleccionar Archivo > Guardar como en el menú del Bloc de notas.
+
+Nombra el archivo „index.htm" y configure la codificación en UTF-8 
+(que es la codificación preferida para archivos HTML).
+
+Consejo: Puede utilizar .htm o .html como extensión de archivo.
+No hay diferencia; depende de ti.
+
+PASO 4: VER LA PAGINA HTML EN SU NAVEDGADOR
+
+Abra el archivo HTML guardado en su navegador favorito 
+(haga doble clic en el archivo, o haga clic derecho y elija "Abrir con").
+
+EDITOR EN LINEA DE W3SCHOOLS: "PRUEBELO USTED MISMO"
+
+Con el editor en linea de la pagina W3SCHOOLS puede edital el codigo HTML y ver el resultado
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOLA MUNDO</title>
+</head>
+<body>
+
+<h1>ESTE ES EL INDICE DE LA PAGINA</h1>
+<p>Y ESTO ES UN PARRAFO.</p>
+
+</body>
+</html>
+
+=== EJEMPLOS BASICOS DE HTML ===
+
+En este capitulo mostraremos ejemplos basicos de HTML.
+
+DOCUMENTOS HTML
+
+Todos los documentos HTML deben comenzar con una declaracion de tipo de documento:
+<!DOCTYPE html>.
+
+El documento HTML en sí comienza con <html> y termina con </html>.
+
+La parte visible del documento HTML está entre <body> y </body>.
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Este es mi primer encabezado</h1>
+<p>Sigamos avanzando</p>
+
+</body>
+</html>
+
+LA DECLARACION <!DOCTYPE>
+
+La declaracion <!DOCTYPE> representa el dipo de documento
+y ayuda a los navegadores a mostrar las páginas web correctamente.
+
+Sólo debe aparecer una vez, en la parte superior 
+de la página (antes de cualquier etiqueta HTML).
+
+La declaración <!DOCTYPE> no distingue entre mayúsculas y minúsculas.
+
+La declaración <!DOCTYPE> para HTML5 es:
+
+<!DOCTYPE html>
+
+ENCABEZADOS HTML 
+
+Los encabezados HTML se definen con el <h1> to <h6> tags.
+
+<h1> define el título más importante. <h6> define lo menos importante encabezado:
+
+EJEMPLO 
+
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+
+MI EJEMPLO
+
+<h1>ENCABEZADO 1</h1>
+<h2>ENCABEZADO 2</h2>
+<h3>ENCABEZADO 3</h3>
+
+PARRAFOS HTML 
+
+Los parrafos HTML se definen con la etiqueta <p>
+
+EJEMPLO
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+MI EJEMPLO
+
+<p>Primer parrafo</p>
+<p>Segundo parrafo</p>
+
+ENLACES HTML 
+
+Los enlaces HTML se definen con el <a> etiqueta:
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Links</h2>
+<p>HTML links are defined with the a tag:</p>
+
+<a href="https://www.w3schools.com">This is a link</a>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Enlaces HTML</h2>
+<p>Los enlaces en html se definen con la etiqueta "<a>" :</p>
+
+<a href="https://www.w3schools.com">w3schools</a>
+
+</body>
+</html>
+
+Imagenes HTML
+
+Las imagenes se definen con el tag <img> 
+
+El archivo fuente (src), texto alternativo (alt), 
+width, y height se proporcionan como atributos:
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Images</h2>
+<p>HTML images are defined with the img tag:</p>
+
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>IMAGENES EN HTML</h2>
+<p>Las imagenes son definidas con el tag <"img"> :</p>
+
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+</body>
+</html>
+
+COMO VER EL CODIGO FUENTE HTML
+
+si alguna vez te preguntaste "¿Como hicieron esta pagina web?"
+
+Puedes utilizar la combinacion de teclas CTRL + U en una pagina web
+para poder ver su codigo fuente, esto abrira una pestaña nueva que
+contiene el codigo fuente de la pagina.
+
+INSPECCIONE UN ELEMENTO HTML
+
+Haga clic derecho en un elemento (o un área en blanco) y elija "Inspeccionar" para ver de 
+qué se componen los elementos (verá ambos el HTML y el CSS). 
+También puedes editar el HTML o CSS sobre la marcha en 
+el Panel de elementos o estilos que se abre.
+
+=== ELEMENTOS HTML ===
+
+Un elemento html se define mediante una etiqueta de inicio, algun contenido
+y una etiqueta final.
+
+El elemento html es todo desde la etiqueta inicial hasta la etiqueta final
+
+Ejemplos de algunos elementos HTML:
+
+<h1>Mi Primer título</h1>
+<p>Mi primer párrafo.</p>
+
+ELEMENTOS ANIDADOS HTML
+
+Los elementos HTML se pueden anidar 
+(esto significa que los elementos pueden contener otros elementos).
+
+Todos los documentos HTML constan de elementos HTML anidados.
+
+El siguiente ejemplo contiene cuatro elementos HTML (<html>, <body>, <h1> y <p>):
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>ELEMENTOS ANIDADOS</h1>
+<p>PRIMER PARRAFO</p>
+
+</body>
+</html>
+
+Ejemplo explicado
+
+El <html> El elemento es el elemento raíz y define todo el documento HTML.
+Tiene una etiqueta de inicio <html> y una etiqueta final </html>.
+Luego, dentro del <html> elemento hay a <body> elemento:
+
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+
+El <body> el elemento define el cuerpo del documento.
+Tiene una etiqueta de inicio <body> y una etiqueta final </body>.
+Luego, dentro del <body> elemento allí son otros dos elementos: <h1> y <p>:
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+El <h1> El elemento define un encabezado.
+Tiene una etiqueta de inicio <h1> y una etiqueta final </h1>:
+
+<h1>My First Heading</h1>
+
+El <p> El elemento define un párrafo.
+Tiene una etiqueta de inicio <p> y una etiqueta final </p>:
+
+<p>My first paragraph.</p>
+
+NUNCA OMITAS LA ETIQUETA FINAL 
+
+Algunos elementos HTML se mostrarán correctamente, 
+incluso si olvidas la etiqueta final:
+
+<html>
+<body>
+
+<p>This is a paragraph
+<p>This is a paragraph
+
+</body>
+</html>
+
+Sin embargo, ¡nunca confíes en esto! 
+¡Pueden producirse resultados y errores inesperados si olvidas la etiqueta final!
+
+ELEMENTOS VACIOS HTML
+
+Los elementos HTML sin contenido se denominan elementos vacíos.
+El <br> la etiqueta define un salto de línea y es un elemento 
+vacío sin etiqueta de cierre:
+
+EJEMPLO 
+
+<!DOCTYPE html>
+<html>
+<body> 
+
+<p>This is a <br> paragraph with a line break.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body> 
+
+<p>Este parrafo <br> es de dos lineas.</p>
+
+</body>
+</html>
+
+HTML MO DISTINGUE ENTRE MAYUSCULAS Y MINUSCULAS
+
+Las etiquetas HTML no distinguen 
+entre mayúsculas y minúsculas: <P> significa lo mismo que <p>.
+
+REFERENCIA DE ETIQUETA HTML
+
+La referencia de etiqueta de W3Schools
+contiene información adicional sobre estas etiquetas y sus atributos.
+
+Tag         	Description
+
+<html>	        Define la raiz de un documento html
+<body>	        Define el cuerpo de un documento
+<h1> to <h6>	Define el encabezado del html
+
+=== ATRINUTOS HTML ===
+
+Los atributos HTML proporcionan información adicional sobre los elementos HTML.
+
+ATRIBUTOS HTML 
+
+Todos los elementos HTML pueden tener atributos
+Los atributos proporcionan información adicional sobre elementos
+Los atributos siempre se especifican en la etiqueta de inicio
+Los atributos generalmente vienen en pares nombre/valor como: nombre="valor"
+
+ATRIBUTO HREF
+
+El <a> la etiqueta define un hipervínculo. 
+El href El atributo especifica la URL de la página El enlace va a:
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The href Attribute</h2>
+
+<p>HTML links are defined with the a tag. The link address is s
+    pecified in the href attribute:</p>
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+l>
+<html>
+<body>
+
+<h2>ATRIBUTO HREF</h2>
+
+<p>Los enlaces html se definen con la etiqueta a.
+    La direccion del enlace se especifica en el atributo href
+</p>
+
+<a href="https://www.w3schools.com">Visita W3Schools</a>
+
+</body>
+</html>
+
+ATRIBUTO SRC
+
+La etiquete img, se utiliza para incrustar una imagen en una pagina HTML.
+El atributo SRC especifica la ruta a la imagen que se mostrara.
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The src Attribute</h2>
+<p>HTML images are defined with the img tag, and the filename of 
+    the image source is specified in the src attribute:</p>
+
+<img src="img_girl.jpg" width="500" height="600">
+
+</body>
+</html>
+
+Mi EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>ATRIBUTO SRC</h2>
+<p>Las imagenes html se definen con la etiqueta img
+    y el nombre de archivo de la fuente de la imagen se
+    especifica en el atributo src:</p>
+
+<img src="img_girl.jpg" width="500" height="600">
+
+</body>
+</html>
+
+Existen dos formas de especificar la irl en el atributo src:
+
+1. URL Absoluta
+    Enlaces a una imagen externa alojada en otro sitio web
+
+2. URL Relativa
+    Enlaces a una imagen alojada en El sitio web. Aquí, la URL no incluye 
+    el nombre de dominio. Si comienza la URL Sin barra, será relativa 
+    a la página actual. Ejemplo: src="img_girl.jpg". 
+    Si la URL comienza con una barra, será relativa al dominio. 
+    Ejemplo: src="/images/img_girl.jpg".
+
+ATRIBUTOS DE ANCHO Y ALTO
+
+La etiqueta img tambien debe contener los atributos width y height,
+que especifivan el ancho y altura de la imagen (en pixeles).
+
+<img src="img_girl.jpg" width="500" height="600">
+
+ATRIBUTO ALT
+
+El atributo alt es requerido para la etiqueta img, especifica un texto
+alternativo para una imagen, si por alguna razon, la imagen no se puede mostrar.
+Esto puede deberse a una conexion lenta o un error en el atributo src, o
+si el usuario utiliza una pantalla de inicio.
+
+<img src="img_girl.jpg" alt="Girl with a jacket">
+
+Esto es lo que sucede si intentamos mostrar una imagen que no Existe
+
+<img src="img_typo.jpg" alt="Girl with a jacket">
+
+ATRIBUTO STYLE
+
+El atributo STYLE se utiliza para agregar 
+estilos a un elemento, como color, fuente, tamaño y más.
+
+<p style="color:red;">This is a red paragraph.</p>
+
+ATRIBUTO LANG
+
+Siempre se debe incluir el atributo LANG dentro de la etiqueta HTML
+para declarar el idioma de la página web. Esto está destinado a 
+ayudar a los motores de búsqueda y navegadores.
+
+El siguiente ejemplo especifica el inglés como idioma:
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+...
+</body>
+</html>
+
+También se pueden agregar códigos de país
+al código de idioma en el atributo LANG. 
+Entonces, los dos primeros caracteres definen 
+el idioma de la página HTML, y los dos últimos 
+personajes definen el país.
+
+El siguiente ejemplo especifica inglés como idioma 
+y Estados Unidos como el país:
+
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+
+ATRIBUTO TITLE
+
+El atributo TITLE define algo extra información sobre un elemento.
+El valor del atributo de título se mostrará como información sobre 
+herramientas cuando pasas el ratón sobre el elemento:
+
+<p title="I'm a tooltip">This is a paragraph.</p>
+
+SUGERENCIAS
+
+UTILIZAR SIEMPRE ATRIBUTOS EN MINUSCULAS
+
+El estandar de HTML no requiere nombres de atributos en minuscukas.
+Todos los atributos se pueden escribir en mayusculas o minusculas como
+tytle o TYTLE
+
+Sin embargo, W3C recomienda atributos en minusculas en HTML.
+
+SIEMPRE CITA VALORES DE ATRIBUTOS
+
+El estándar HTML no requiere comillas alrededor de los valores de los atributos.
+
+Sin embargo, W3C recomienda citas en HTML, y demandas 
+citas para tipos de documentos más estrictos como XHTML.
+
+BIEN
+
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+
+MAL
+
+<a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
+
+A veces hay que utilizar comillas. 
+Este ejemplo no se mostrará el atributo de título 
+correctamente, porque contiene un espacio:
+
+<p title=Description of W3Schools></p>
+
+¿CITAS SIMPLES O DOBLES?
+
+Las comillas dobles alrededor de los valores de los atributos son los mas
+comunes en HTML, pero las simples tambien se pueden utilizar en citas.
+
+En algunas situaciones, cuando el balor del atributo en si contiene comillas dobles,
+es necesario utilizar comillas simples.
+
+<p title='John "ShotGun" Nelson'></p>
+
+O viceversa:
+
+<p title="John 'ShotGun' Nelson">
+
+=== ENCABEZADOS HTML ===
+
+Los encabezados HTML son titulos o subtitulos que desea mostrar en una pagina web.
+
+Encabezados HTML
+
+Los encabezados se definen con los tags h1 hasta h6
+
+EJEMPLO
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+LOS TITULOS SON IMPORTANTES
+
+Los motores de busqueda utilizan los encabezados para indexar la
+escritura y el contenido de sus paginas web
+
+Los usuarios a menudo hojean una pagina por sus titulos.
+Es importante utilzar encabezados para mostrar la escritura del documento.
+
+<h1> Se deben utilizar encabezados para los encabezados principales, 
+seguidos de <h2> títulos, luego los menos importantes <h3>, y así sucesivamente.
+
+Por ejemplo:
+
+<h1>- Título de la página
+<h2>- Títulos de las secciones
+<h3>- Subsecciones
+
+EJEMPLO
+
+<h1>Travel Guide</h1>
+
+<h2>Europe</h2>
+<h3>France</h3>
+<h3>Italy</h3>
+
+<h2>Asia</h2>
+<h3>India</h3>
+<h3>Thailand</h3>
+
+MI EJEMPLO
+
+Ejemplo
+<h1>TIENDA DE MASCOTAS</h1>
+
+<h2>PERROS</h2>
+<h3>Chihuahua</h3>
+<h3>Husky</h3>
+
+<h2>GATOS</h2>
+<h3>Egipsio</h3>
+<h3>Siames</h3>
+
+ENCABEZADOS MAS GRANDES
+
+Cada encabezado HTML tiene un tamaño predeterminado. 
+Sin embargo, puedes especificar el tamaño para cualquier 
+encabezado con el atributo style, utilizando la propiedad CSS font-size:
+
+<h1 style="font-size:60px;">Heading 1</h1>
+
+=== PARRAFOS HTML ===
+
+Un párrafo siempre comienza en 
+una nueva línea y suele ser un bloque de texto.
+
+PARRAFOS EN HTML
+
+El elemento html p define un parrafo
+
+Un párrafo siempre comienza en una nueva línea y los navegadores 
+agregan automáticamente algún espacio en blanco (un margen) 
+antes y después de un párrafo.
+
+Ejemplo
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+No puedes estar seguro de cómo se mostrará HTML.
+
+Las pantallas grandes o pequeñas y las ventanas
+redimensionadas crearán resultados diferentes.
+
+Con HTML, no puedes cambiar la visualización agregando
+espacios adicionales o líneas adicionales en tu código HTML.
+
+El navegador eliminará automáticamente cualquier espacio 
+o línea adicional cuando la página esté mostrado:
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser 
+ignores it.
+</p>
+
+<p>
+This paragraph
+contains      a lot of spaces
+in the source     code,
+but the    browser 
+ignores it.
+</p>
+
+<p>
+The number of lines in a paragraph depends on the size of the browser window. 
+If you resize the browser window, the number of lines in this paragraph will change.
+</p>
+
+</body>
+</html>
+
+REGLAS HORIZONTALES HTML
+
+La etiqueta hr define una ruptura tematica en una pagina html y es
+la mas frecuente, se muestra como una regla horizontal.
+
+El elemento hr se utiliza para separar contenido en una pagina html.
+
+EJEMPLO
+
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
+
+La etiqueta hr es una etiqueta vacia, lo que significa que no tiene etiqueta final.
+
+INTERRUPCION DE LINEA HTML
+
+El elemento br define un salto de linea
+Utiliza br si desea un salto de linea sin iniciar un nuevo parrafo.
+
+<p>This is<br>a paragraph<br>with line breaks.</p>
+
+El <br> La etiqueta es una etiqueta vacía, lo que significa que no tiene etiqueta final.
+
+EL PROBLEMA DEL POEMA
+
+Este poema se mostrará en una sola línea:
+
+<p>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</p>
+
+SOLUCION
+
+El elemento "pre" define texto preformateado
+El texto dentro del elemento "pre" se muestra en una fuente de anchob fijo
+y conserva tanto espacios como saltos de linea.
+
+EJEMPLO
+
+<pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
+
+MI EJEMPLO
+
+<pre>
+Este parrafo
+
+esta dentro de un elemento
+
+y no utiliza
+
+muchos parrafos
+</pre>
+
+=== ESTILOS HTML ===
+
+El atributo STYLE se utiliza para agregar estilos a un elemento, como color,
+fuente, tamaño y mas.
+
+EL ATRIBUTO STYLE HTML
+
+La configuración del estilo de un elemento HTML se puede realizar con el atributo style.
+EL atributo sytile tiene la siguiente sintaxis
+
+<tagname style="property:value;">
+
+El property es una propiedad CSS. El value es un valor CSS.
+
+COLOR DE FONDO
+
+La propiedad CSS background-color define el color de fondo para un elemento de HTML.
+
+EJEMPLO
+CAMBIO DE COLOR DE FONDO DE LA PAGINA
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:magenta;">
+
+<h1>CAMBIO DE COLOR</h1>
+<p>Esta pagina es color magenta.</p>
+
+</body>
+</html>
+
+EJEMPLO
+ESTABLECER EL COLOR DE FONDO PARA DOS ELEMENTOS diferentes
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:powderblue;">This is a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:red;">ENCABEZADO ROJO</h1>
+<p style="background-color:yellow;">PARRAFO AMARILLO.</p>
+
+</body>
+</html>
+
+COLOR DEL TEXTO
+
+La propiedad de color CSS, define el color del texto para un elemento HTML
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:GREEN;">AHORA LOS TEXTOS SON DE DIFERENTE COLOR</h1>
+<p style="color:purple;">Me gustan estos colores.</p>
+
+</body>
+</html>
+
+FUENTES
+
+La propiedad CSS font- family, define la fuente que se utilizara dentro de
+un elemento HTML
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-family:verdana;">ESTO TIENE UN TAMAÑO MAS GRANDE</h1>
+<p style="font-family:courier;">Esto es algo pequeño.</p>
+
+</body>
+</html>
+
+TAMAÑO DE TEXTO
+
+La propiedad CSS font-size, define el tamaño de texto para un elemento HTML.
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="font-size:300%;">ENCABEZADO GRANDE</h1>
+<p style="font-size:160%;">Parrafo chico.</p>
+
+</body>
+</html>
+
+ALINEACION DE TEXTO
+
+La propiedad CSS text-align, define la alineacion horizontal
+del texto para un elemento HTML.
+
+EJEMLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-align:center;">ENCABEZADO CENTRADO</h1>
+<p style="text-align:center;">Parrafo tambien.</p>
+
+</body>
+</html>
+
+=== FORMATO DE TEXTO HTML ===
+
+HTML contiene varios elementos para definir texto con un 
+significado especial.
+
+ELEMENTOS DE FORMATO HTML
+
+<b>- Texto en negrita
+<strong>- Texto importante
+<i>- Texto en cursiva
+<em>- Texto enfatizado
+<mark>- Texto marcado
+<small>- Texto más pequeño
+<del>- Texto eliminado
+<ins>- Texto insertado
+<sub>- Texto de subíndice
+<sup>- Texto en superíndice
+
+ELEMENTOS HTML <b> Y <strong>
+
+El elemento <b> define el texto en negrita sin ninguna importancia extra.
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This text is normal.</p>
+
+<p><b>This text is bold.</b></p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Texto normal.</p>
+
+<p><b>Texto en negrita.</b></p>
+
+</body>
+</html>
+
+El elemento HTML <strong> define el texto con gran importancia. 
+El contenido interior normalmente se muestra en negrita.
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This text is normal.</p>
+
+<p><strong>This text is important!</strong></p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Texto normal.</p>
+
+<p><strong>Este texto es importanteeeeee!</strong></p>
+
+</body>
+</html>
+
+ELEMENTOS HTML <i> Y <em>
+
+El HTML <i> elemento define una parte de texto en 
+una voz o estado de ánimo alternativo. 
+El contenido interior normalmente se muestra en cursiva.
+
+Consejo: El <i> La etiqueta se utiliza a menudo para
+indicar un término técnico, una frase de otro idioma, 
+un pensamiento, el nombre de un barco, etc.
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This text is normal.</p>
+
+<p><i>This text is italic.</i></p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Otra vez texto normal.</p>
+
+<p><i>Ahora es italica.</i></p>
+
+</body>
+</html>
+
+El elemento HTML <em> define texto enfatizado. 
+El contenido interior normalmente se muestra en cursiva.
+
+Consejo: Un lector de pantalla pronunciará las palabras 
+en <em> con énfasis, utilizando el estrés verbal.
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This text is normal.</p>
+
+<p><em>This text is emphasized.</em></p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>NORMAL.</p>
+
+<p><em>CURSIVA.</em></p>
+
+</body>
+</html>
+
+ELEMENTO HTML <SMALL>
+
+El elemento HTML <small> define texto más pequeño:
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is some normal text.</p>
+<p><small>This is some smaller text.</small></p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Tamaño nomral.</p>
+<p><small>Texto pequeño.</small></p>
+
+</body>
+</html>
+
+ELEMENTO HTML <mark>
+
+El elemento HTML <mark> define el texto que debe estar marcado o resaltado:
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>No olvides la <mark>tarea</mark>.</p>
+
+</body>
+</html>
+
+ELEMENTO HTML <del>
+
+El elemento HTML <del> define el texto que ha sido eliminado 
+de un documento. Los navegadores normalmente encontrarán 
+una línea a través de texto eliminado:
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>My favorite color is <del>blue</del> red.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Me gusta el color <del>verde</del> morado.</p>
+
+</body>
+</html>
+
+ELEMENTO HTML <ins>
+
+El HTML <ins> El elemento define un texto que ha sido 
+insertado en un documento. Los navegadores generalmente 
+subrayarán los elementos insertados:
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>mi color favorito es el <del>negro</del> <ins>morado</ins>.</p>
+
+</body>
+</html>
+
+ELEMENTO HTML <sub>
+
+El elemento <sub> define texto subíndice. 
+El texto del subíndice aparece medio carácter por debajo de la línea normal,
+y a veces se representa en una fuente más pequeña. 
+El texto de subíndice se puede utilizar para fórmulas químicas:
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is <sub>subscripted</sub> text.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Este texto es un <sub>subindice</sub> .</p>
+
+</body>
+</html>
+
+ELEMENTO HTML <sup>
+ 
+El elemento HTML <sup> define texto en superíndice. 
+El texto en superíndice aparece medio carácter por encima 
+de lo normal línea y, a veces, se representa en una 
+fuente más pequeña. Se puede utilizar texto en 
+superíndice para notas a pie de página,
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>This is <sup>superscripted</sup> text.</p>
+
+</body>
+</html>
+
+MI EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Esto es <sup>un superindice</sup>.</p>
+
+</body>
+</html>
+
+=== ELEMENTOS DE CITA Y CITACION HTML ===
+
+En este capítulo repasaremos los elementos 
+<blockquote>,<q>, <abbr>, <address>, <cite>, y <bdo>
+
+HTML <blockquote> PARA COTIZACIONES
+
+El elemento html <blockquote> define una seccion que se cita 
+de otra fuente.
+Los navegadores suelen sangrar el elemento <blockquote>
+    
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. 
+As the world's leading conservation organization, 
+WWF works in nearly 100 countries. At every level, 
+we collaborate with people around the world to develop and deliver 
+innovative solutions that protect communities, wildlife, and the places 
+in which they live.
+</blockquote>
+
+</body>
+</html>
+
+HTML <q> PARA CITAS BREVES
+
+La etiqueta HTML <q> define una cita corta.
+Los navegadores normalmente insertan comillas alrededor de la cita.
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Browsers usually insert quotation marks around the q element.</p>
+
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+</body>
+</html>
+
+HTML <abbr> PARA ABREVIATURAS
+
+La etiqueta HTML <abbr> define una abreviatura o un acrónimo,
+como "HTML", "CSS", "Sr.", "Dr.", "ASAP", "ATM".
+
+Marcar abreviaturas puede brindar información útil a 
+los navegadores y traducciones sistemas 
+y motores de búsqueda.
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>
+
+</body>
+</html>
+
+HTML <adress> PARA INFORMACION DE CONTACTO
+
+La etiqueta define la información de contacto del 
+autor/propietario de un documento o un artículo.
+
+La información de contacto puede ser una dirección de correo electrónico, URL, 
+dirección física, teléfono número, nombre de usuario de redes sociales, etc.
+
+El elemento generalmente se representa en cursiva, y los navegadores
+lo harán Agregue siempre un salto de línea antes y después
+del <address>.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The HTML address element defines contact information 
+    (author/owner) of a document or article.</p>
+
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+</body>
+</html>
+
+HTML <cite> PARA TITULOS DE TRABAJO
+
+La etiqueta define el título de a trabajo creativo (por ejemplo, un libro, 
+un poema, una canción, una película, una pintura, una escultura, etc.).
+Nota: El nombre de una persona no es el título de una obra.
+El texto en el <cite> El elemento generalmente se representa en cursiva
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The HTML cite element defines the title of a work.</p>
+<p>Browsers usually display cite elements in italic.</p>
+
+<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+</body>
+</html>
+
+HTML <bdo> PARA ANULACION BIDIMENCIONAL
+
+BDO significa anulación bidireccional.
+La etiqueta se utiliza para anular la dirección actual del texto:
+
+EJEMPLO
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>If your browser supports bi-directional override (bdo), the next line will be written from right to left (rtl):</p>
+
+<bdo dir="rtl">This line will be written from right to left</bdo>
+
+</body>
+</html>
+
+=== COMENTARIOS HTML ===
+
+Puede agregar comentarios a su fuente HTML utilizando la siguiente sintaxis:
+
+<!-- Write your comments here -->
+
+Observe que hay un signo de exclamación (!) en la etiqueta de inicio, pero no en la etiqueta final.
+
+AGREGAR COMENTARIOS
+
+Con los comentarios puedes colocar notificaciones y recordatorios en tu código HTML:
+
+EJEMPLO
+
+<!-- This is a comment -->
+
+<p>This is a paragraph.</p>
+
+<!-- Remember to add more information here -->
+
+OCULTAR CONTENIDO
+
+Los comentarios se pueden utilizar para ocultar contenido.
+Esto puede resultar útil si oculta contenido temporalmente:
+
+EJEMPLO
+
+<p>This is a paragraph.</p>
+
+<!-- <p>This is another paragraph </p> -->
+
+<p>This is a paragraph too.</p>
+
+También puedes ocultar más de una línea. 
+Todo entre los <!-- y el --> quedará oculto de la pantalla.
+
+EJEMPLO
+
+<p>This is a paragraph.</p>
+<!--
+<p>Look at this cool image:</p>
+<img border="0" src="pic_trulli.jpg" alt="Trulli">
+-->
+<p>This is a paragraph too.</p>
+
+Los comentarios también son excelentes para depurar HTML, 
+porque puedes comente líneas de código HTML, una a la vez, 
+para buscar errores.
+
+OCULTAR CONTENIDO EN LINEA 
+
+Los comentarios se pueden utilizar para ocultar partes en medio del código HTML.
+
+EJEMPLO
+
+<p>This <!-- great text --> is a paragraph.</p>
+
+=== COLORES HTML ===
+
+Los colores HTML se especifican con nombres de colores 
+predefinidos o con Valores RGB, HEX, HSL, RGBA o HSLA.
+
+NOMBRES DE COLORES
+
+En HTML, un color se puede especificar utilizando un nombre de color:
+
+Tomate, Naranja, Dodger Azul, Verde marino medio, Gris, Pizarra Azul, Violeta, Gris claro.
+
+Soportes HTML: 140 nombres de colores estandar.
+
+COLOR DE FONDO
+
+Puedes configutar el color de fondo para los elementos HTML.
+
+EJEMPLO
+
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
+
+COLOR DEL TEXTO
+
+Puedes configurar el color del texto:
+
+EJEMPLO:
+
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+
+COLOR DEL BORDE
+
+Puedes configurar el color de los bordes:
+
+EJEMPLOS:
+
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+
+VALORES DE COLOR 
+
+En HTML los colores también se pueden especificar 
+utilizando valores RGB, valores HEX y HSL valores, 
+valores RGBA y valores HSLA.
+
+Los siguientes tres elementos <div> tienen su color 
+de fondo establecido con RGB, Valores HEX y HSL:
+
+rgb(255, 99, 71)
+#ff6347
+hsl(9, 100%, 64%)
+
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+
+Los siguientes dos elementos <div> tienen su color de 
+fondo establecido con RGBA y valores HSLA, que añaden 
+un canal Alfa al color (aquí tenemos el 50% transparencia):
+
+rgba(255, 99, 71, 0,5)
+hsla(9, 100%, 64%, 0,5)
+
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+
+COLORES RGB Y RGBA
+
+Un valor de color RGB representa luz ROJA, VERDE y AZUL fuentes.
+Un valor de color RGBA es una extensión de RGB con un Canal alfa (opacidad).
+
+VALORES RGB
+
+En HTML, un color se puede especificar 
+como un valor RGB, utilizando esta fórmula:
+
+rgb(rojo, verde, azul)
+
+Cada parámetro (rojo, verde y azul) define la intensidad 
+del color con un valor entre 0 y 255.
+
+¡Esto significa que hay 256 x 256 x 256 = 16777216 colores posibles!
+
+Por ejemplo, rgb(255, 0, 0) se muestra en rojo, 
+porque el rojo se establece en su valor más alto (255) 
+y los otros dos (verde y azul) son establecido en 0.
+
+Otro ejemplo, rgb(0, 255, 0) se muestra en verde, 
+porque el verde se establece en su valor más alto (255), 
+y los otros dos (rojo y azul) son establecido en 0.
+
+Para mostrar negro, configure todos los parámetros de 
+color en 0, de esta manera: rgb(0, 0, 0).
+
+Para mostrar el blanco, configure todos los parámetros 
+de color en 255, como esto: rgb(255, 255, 255).
+
+TONOS DE GRIS
+
+
